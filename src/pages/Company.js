@@ -13,23 +13,41 @@ function Company() {
       </div>
       <div className="companies__logo">
           <div className="col company__logo--col1">
-            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1677819887/project2/Company/com1_i9urqq.svg"></img>
+            <div className="logo">
+            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1678444705/project2/logo/9_z8f0va.svg"></img>
+            </div>
           </div>
           <div className="col company__logo--col2">
-            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1677819887/project2/Company/com2_azcmxx.svg"></img>
-            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1677819887/project2/Company/com3_bqywlh.svg"></img>
+            <div className="logo">
+            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1678444705/project2/logo/8_bxqnlh.svg"></img>
+            </div>
+            <div className="logo">
+            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1678444705/project2/logo/7_jsowk5.svg"></img>
+            </div>
           </div>
           <div className="col company__logo--col3">
-            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1677819887/project2/Company/com4_lqptpg.svg"></img>
-            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1677819888/project2/Company/com5_iydlcl.svg"></img>
-            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1677819887/project2/Company/com6_zeuv2h.svg"></img>
+            <div className="logo">
+            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1678444705/project2/logo/6_zc9bki.svg"></img>
+            </div>
+            <div className="logo">
+            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1678444705/project2/logo/5_gc2p9q.svg"></img>
+            </div>
+            <div className="logo">
+            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1678444705/project2/logo/4_ergk62.svg"></img>
+            </div>
           </div>
           <div className="col company__logo--col4">
-            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1677819889/project2/Company/com7_shcpf1.svg"></img>
-            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1677819889/project2/Company/com8_xkdoe4.svg"></img>
+            <div className="logo">
+            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1678444707/project2/logo/3_r0rjsq.svg"></img>
+            </div>
+            <div className="logo">
+            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1678444706/project2/logo/2_droyjn.svg"></img>
+            </div>
           </div>
           <div className="col company__logo--col5">
-            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1677819889/project2/Company/com9_z2c7g9.svg"></img>
+            <div className="logo">
+            <img src="https://res.cloudinary.com/diowgvamj/image/upload/v1678444706/project2/logo/1_fhc8vo.svg"></img>
+            </div>
           </div>
         </div>
     </section>

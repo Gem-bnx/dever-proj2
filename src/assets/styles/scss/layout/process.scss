@@ -8,6 +8,7 @@
   @include text--center;
   & .process-intro__heading{
     margin-bottom: 30px;
+    line-height: 56px;
   }
   & .process-intro__desc {
     padding: 0 103px;
@@ -15,7 +16,7 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 39.5px;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
   }
 }
 .stages {
@@ -32,13 +33,14 @@
   & .stage__icon {
     aspect-ratio: 1;
     width: 76px;
-  }
+  } 
   & .stage__name {
     padding: 5px 7px 10px;
     line-height: 31px;
   }
   & .stage__desc {
     font-size: 18px;
+    line-height: 28px;
   }
 }
 

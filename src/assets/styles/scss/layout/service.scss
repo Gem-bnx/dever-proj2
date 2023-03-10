@@ -8,6 +8,7 @@
 }
 .service-intro__heading{
     margin-bottom: 8px;
+    line-height: 64px;
 }
 .service-intro__desc{
     @include service-text--normal;
@@ -16,7 +17,7 @@
 .services{
     display: flex;
     justify-content: space-around;
-    padding: 0 138px;
+    padding: 0 18px;
     & .service {
         font-size: 18px;
         line-height: 31px;

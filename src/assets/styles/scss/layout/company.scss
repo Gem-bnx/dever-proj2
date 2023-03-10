@@ -24,23 +24,42 @@
 }
 .companies__logo {
   display: flex;
-  // margin: 0 auto;
   & div {
     justify-content: center;
   }
-  & .company__logo--col1 {
-    margin: 10px 12px 20px 0;
-    width: 170px;
-  }
-  & .company__logo--col3 img,
-  & .company__logo--col2 img,
-  & .company__logo--col4 img {
-    margin: 0 -28px -54px;
-  }
-  & .company__logo--col5 {
-    margin: 10px 0px 20px 12px;
-    width: 170px;
-  }
+  // & .col{
+  //   & div {
+  //     display: block;
+  //     position: relative;
+  //     background: #fff;
+  //   }
+  //   & img{
+  //     position: absolute;
+  //   }
+  // }
+  // & .company__logo--col1 {
+  //   margin: 10px 12px 20px 0;
+  //   width: 170px;
+  // }
+  // & .company__logo--col3 img,
+  // & .company__logo--col2 img,
+  // & .company__logo--col4 img {
+  //   margin: 0 -28px -54px;
+  // }
+  // & .company__logo--col5 {
+  //   margin: 10px 0px 20px 12px;
+  //   width: 170px;
+  // }
+}
+.logo {
+  width: 170px;
+  height: 96px;
+  background-color: #fff;
+  border-radius: 16px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  margin: 12px 10px;
 }
 
 @include tablet {
