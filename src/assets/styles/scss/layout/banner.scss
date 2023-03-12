@@ -20,7 +20,7 @@
 .intro-text__desc {
   font-size: 20px;
   line-height: 33px;
-  letter-spacing: 0.2;
+  letter-spacing: 0.2px;
 }
 .banner-intro__search {
   border-radius: 8px;
@@ -100,8 +100,8 @@
   .banner-intro__text {
     & .intro-text__heading {
       font-size: 42px;
-      line-height: 57.5px;
-      margin-bottom: 20px;
+      line-height: 53.5px;
+      margin-bottom: 30px;
     }
     & .intro-text__desc {
       font-size: 12px;

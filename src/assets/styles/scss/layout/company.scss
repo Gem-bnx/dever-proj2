@@ -72,7 +72,7 @@
 }
 @include mobile {
   #company-block {
-    padding-bottom: 40px;
+    padding-bottom: 28px;
     & .container {
       padding-top: 40px;
     }
@@ -93,15 +93,8 @@
   }
   .companies__logo {
     flex-direction: column;
-    & .company__logo--col1 {
-      margin: 0 auto 14px;
-    }
-    & .company__logo--col2 img,
-    & .company__logo--col3 img{
-      margin: 0 -28px -54px;
-    }
     & .company__logo--col5 ,
-    & .company__logo--col4 img {
+    & .company__logo--col4{
       display: none;
     }
   }

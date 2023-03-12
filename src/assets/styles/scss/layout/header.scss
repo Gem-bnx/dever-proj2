@@ -1,20 +1,23 @@
 .header {
+  width: 100%;
+  margin: 0 auto;
   top: 35px;
   font-size: 14px;
   display: flex;
   position: fixed;
   right: 0;
   z-index: 1;
-      
-  max-width: 1200px;
+  align-items: center;
   & .container {
+    justify-content: flex-end;
+    width: 100%;
     padding: 0;
     flex-direction: row;
+    margin: 0 auto !important;
   }
   & .menu {
     display: none;
   }
-  justify-content: flex-end;
 }
 
 .navbar {
@@ -46,11 +49,6 @@
   text-align: center;
 }
 
-@include desktop {
-  .header .container {
-    margin-right: 120px;
-  }
-}
 @include tablet {
   .header .container {
     margin-right: 40px;
