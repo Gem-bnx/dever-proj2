@@ -6,7 +6,7 @@
 }
 .process__intro {
   @include text--center;
-  & .process-intro__heading{
+  & .process-intro__heading {
     margin-bottom: 30px;
     line-height: 56px;
   }
@@ -20,7 +20,8 @@
   }
 }
 .stages {
-  display: flex;
+  display: none;
+  
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -33,7 +34,7 @@
   & .stage__icon {
     aspect-ratio: 1;
     width: 76px;
-  } 
+  }
   & .stage__name {
     padding: 5px 7px 10px;
     line-height: 31px;
@@ -45,6 +46,9 @@
 }
 
 @include desktop {
+  .stages--desktop{
+    display: flex;
+  }
 }
 @include tablet {
   #process-block {
@@ -60,6 +64,9 @@
   .stages {
     padding: 0 85px;
   }
+  .stages--tablet{
+    display: flex;
+  }
 }
 @include mobile {
   #process-block {
@@ -69,7 +76,7 @@
     }
   }
   .process__intro {
-    & .process-intro__heading{
+    & .process-intro__heading {
       font-size: 24px;
       margin-bottom: 15px;
     }
