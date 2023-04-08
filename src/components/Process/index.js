@@ -1,6 +1,6 @@
 import React from "react";
-
-function Process({ Stages }) {
+import Stages from "../Stages";
+function Process() {
   return (
     <section id="process-block">
       <div className="container">

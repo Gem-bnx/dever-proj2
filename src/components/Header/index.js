@@ -1,6 +1,7 @@
 import React from "react";
-import "../assets/styles/scss/main.scss";
-function Header({ Navbar }) {
+import "../../assets/styles/scss/main.scss";
+import Navbar from "../Navbar";
+function Header() {
   return (
     <div className="header">
       <div className="container">

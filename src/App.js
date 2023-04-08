@@ -1,21 +1,19 @@
 import './App.css';
-import Banner from './pages/Banner';
-import Header from './components/Header';
-import Navbar from './components/Navbar';
-import Process from './pages/Process';
-import Stages from './components/Stages';
-import Service from './pages/Service';
-import Product from './pages/Product';
-import Company from './pages/Company';
-import User from './pages/User';
-import Footer from './components/Footer';
+import Banner from './components/Banner/index.js';
+import Header from './components/Header/index.js';
+import Process from './components/Process/index.js';
+import Service from './components/Service/index.js';
+import Product from './components/Product/index.js';
+import Company from './components/Company/index.js';
+import User from './components/User/index.js';
+import Footer from './components/Footer/index.js';
 
 function App() {
   return (
     <div className="App">
-      <Header Navbar={Navbar}></Header>
+      <Header></Header>
       <Banner></Banner>
-      <Process Stages={Stages}></Process>
+      <Process></Process>
       <Service></Service>
       <Product></Product>
       <Company></Company>
