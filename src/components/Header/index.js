@@ -1,6 +1,6 @@
 import React from "react";
-import "../../assets/styles/scss/main.scss";
 import Navbar from "../Navbar";
+import "./style.scss"
 function Header() {
   return (
     <div className="header">

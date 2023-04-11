@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./style.scss";
 function Banner() {
   return (
     <section id="banner-block">

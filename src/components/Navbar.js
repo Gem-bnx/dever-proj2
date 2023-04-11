@@ -1,5 +1,4 @@
 import React from 'react'
-import '../assets/styles/scss/main.scss'
 function Navbar() {
   return (
     <div className='navbar'>

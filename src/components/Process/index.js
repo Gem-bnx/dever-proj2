@@ -1,5 +1,6 @@
 import React from "react";
 import Stages from "../Stages";
+import "./style.scss"
 function Process() {
   return (
     <section id="process-block">
